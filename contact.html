@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="footer.css">
+    <title>Contact Us</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background: #25262a;
+            color: whitesmoke;
+        }
+
+        .containerss {
+            color: whitesmoke;
+            height: 44em;
+            display: flex;
+        }
+
+        .leftside {
+            width: 54vw;
+            height: 40em;
+            display: flex;
+            align-items: center;
+            line-height: 3;
+        }
+
+        h2 {
+            font-weight: bold;
+
+        }
+
+        .align-c {
+            margin: 23px;
+        }
+
+        .line-height {
+            line-height: 1.4;
+            margin: 11px;
+        }
+
+        .rightside {
+            width: 50vw;
+            height: 40em;
+            display: flex;
+            align-items: center;
+            /* background-color: aquamarine; */
+            flex-direction: column;
+            justify-content: center;
+        }
+
+
+        .area {
+            display: flex;
+        }
+
+        .name {
+            border: 2px solid green;
+            outline: none;
+            padding: 9px 5px;
+            margin: 0 8px 4px 0;
+            width: 19vw;
+            border-radius: 11px;
+            background: transparent;
+            color: whitesmoke;
+        }
+
+        .email {
+            border: 2px solid green;
+            outline: none;
+            padding: 9px 5px;
+            margin: 0 6px 4px 0;
+            width: 19vw;
+            border-radius: 11px;
+            background: transparent;
+            color: whitesmoke;
+        }
+
+        textarea {
+            width: 40vw;
+            margin: 15px 0;
+            border: 2px solid green;
+            outline: none;
+            padding: 9px 5px;
+            border-radius: 11px;
+            background: transparent;
+            color: whitesmoke;
+        }
+
+
+        .sendme {}
+
+        .calll {
+            display: flex;
+            margin: 39px 0;
+            width: 99%;
+        }
+
+
+        .calll img {
+            width: 4em;
+            border-radius: 50%;
+        }
+
+        .callbox {
+            display: flex;
+            width: 52%;
+        }
+
+        .call-logo {
+            /* width: 6em;
+            background: aqua; */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .call-number {
+            margin: 1px 4px;
+        }
+
+        .slow {
+            text-align: initial;
+        }
+
+        h4 {
+            text-align: start;
+        }
+
+        .emailbox {
+            display: flex;
+            align-items: center;
+            width: 50%;
+            justify-content: center;
+        }
+
+        .email-logo {
+            /* width: 6em;
+            background: aqua; */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .email-contact {
+            margin: 1px 4px;
+        }
+
+        .text-ct {
+            text-align: center;
+            line-height: 1;
+            margin: 2px 15px;
+        }
+
+        /* media query? tab */
+        @media screen and (max-width:1030px) {
+            .containerss {
+                margin: auto;
+                padding: 1px;
+                height: 49em;
+                width: 95vw;
+                flex-direction: column;
+            }
+
+            .line-height {
+                padding: 0 56px 0 0px;
+            }
+
+            .rightside {
+                width: 95vw;
+            }
+
+            .name {
+                width: 38vw;
+            }
+
+            .email {
+                width: 38vw;
+            }
+
+            textarea {
+                width: 77vw;
+            }
+
+
+
+        }
+
+        /* media query for small moblie */
+        @media screen and (max-width:600px) {
+            body {
+                font-size: 10px;
+            }
+
+            .containerss {
+                height: 60em;
+                width: 37em;
+            }
+
+            .line-height {
+                padding: 0 56px 0 0px;
+            }
+
+            .rightside {
+                width: 38em;
+            }
+
+            .name {
+                width: 14em;
+            }
+
+            .email {
+                width: 14em;
+            }
+
+            textarea {
+                width: 28em;
+            }
+
+
+
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top sticky-sm-top bg-dark border-bottom border-bottom-dark"
+        data-bs-theme="dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">ATIF JAMEEL</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="partfolio.html">Partfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="contact.html">Contact US</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" id="ssearch" placeholder="Search"
+                        aria-label="Search">
+                    <button class="btn btn-outline-success sbtn" type="submit"><a href="contact.html">Contact
+                            Us</a></button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <div class="containerss">
+        <div class="leftside">
+            <div class="align-c">
+                <div class="project"> Contact Me</div>
+                <h2>Get In Touch With Me</h2>
+                <p class="line-height">The technological revolution is changing aspect of our lives, and the fabric of
+                    society itself. it's also changing the way we learn and what we learn. Factual knowledge is less
+                    prized when everything you ever need to know can be found on your phone. There's no imperative to be
+                    an expert Factual knowledge is less prized when everything you ever need to know can be found at
+                    doing everything.
+                </p>
+                <!-- callbox -->
+                <div class="calll">
+                    <div class="callbox">
+                        <div class="call-logo">
+                            <img src="17.jpg" alt="">
+                        </div>
+                        <div class="text-ct">
+                            <h4>Phone</h4>
+                            <div class="call-number">
+                                <div> 03578492038
+                                </div>
+                                <div> 03849389473</div>
+
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="emailbox">
+                        <div class="email-logo">
+                            <img src="17.jpg" alt="">
+                        </div>
+                        <div class="text-ct">
+                            <div class="slow">
+                                <h4>Email</h4>
+                                <div class="email-contact">
+                                    Info@yourdomain.com
+                                    Info@yourdomain.net <br>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <form action="" class="rightside">
+            <div class="area">
+                <input type="text" placeholder="Enter Name" class="name">
+                <input type="email" placeholder="Enter email" class="email">
+            </div>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Enter your concer"></textarea>
+            <div class="sendme">
+                <button type="button" class="btn btn-warning" class="left-box5 center-box"><a href="index.html">Send To
+                        Me</a></button>
+            </div>
+        </form>
+    </div>
+
+    <footer>
+        <div class="footer">
+
+            <div class="logo">
+                <a href="index.html"> <img src="logo.png" alt=""></a>
+            </div>
+            <div class="footcontact">© 2023 Freelancer - Phlox Elementor WordPress Theme. All rights reserved.
+            </div>
+            <div class="iconss">
+                <div class="allicons">
+                    <div class="facebook">
+                        <img src="17.jpg" alt="">
+                    </div>
+                    <div class="in">
+                        <img src="17.jpg" alt="">
+                    </div>
+                    <div class="incitgram">
+                        <img src="17.jpg" alt="">
+                    </div>
+                    <div class="message">
+                        <img src="17.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

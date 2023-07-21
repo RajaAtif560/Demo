@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Partfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="footer.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background: #25262a;
+            color: whitesmoke;
+        }
+
+        .containers {
+            color: whitesmoke;
+            height: 44em;
+            display: flex;
+        }
+
+        .leftside {
+            width: 42%;
+            height: 40em;
+            display: flex;
+            align-items: center;
+            line-height: 3;
+        }
+
+        .mz {
+            justify-content: center;
+        }
+
+        .align-c {
+            margin: 23px;
+        }
+
+        .line-height {
+            line-height: 1;
+        }
+
+        .rightside {
+            width: 54%;
+            height: 40em;
+            display: flex;
+            align-items: center;
+        }
+
+        .shodow {
+            /* width: 41em; */
+            height: 28em;
+            border-radius: 41px;
+            rotate: -7deg;
+            background: whitesmoke;
+        }
+
+        .shodow img {
+            width: 38em;
+            height: 28em;
+            border-radius: 41px;
+            /* box-shadow: -32px 25px 13px 6px whitesmoke;
+            transform: translate(171deg, );
+            transform: translate(-6px, -20px); */
+            rotate: 366deg;
+        }
+
+        .reverse-flex {
+            flex-direction: row-reverse;
+        }
+
+        .reverse-box {
+            rotate: 7deg;
+        }
+
+        #reverse-img {
+            rotate: -7deg;
+        }
+
+        .mc {
+            width: 50%;
+            height: 40em;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top sticky-sm-top bg-dark border-bottom border-bottom-dark"
+        data-bs-theme="dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">ATIF JAMEEL</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="partfolio.html">Partfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact US</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" id="ssearch" placeholder="Search"
+                        aria-label="Search">
+                    <button class="btn btn-outline-success sbtn" type="submit"><a href="contact.html">Contact
+                            Us</a></button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <div class="containers">
+        <div class="leftside mc">
+            <div class="align-c">
+                <div class="project"> Project 1</div>
+                <h2>Branding Nice Studio</h2>
+                <p class="line-height">The technological revolution is changing aspect of our lives, and the fabric of society itself. it's also changing the way we learn and what we learn. Factual knowledge is less prized when everything you ever need to know can be found on your phone. There's no imperative to be an expert at doing everything when you can.</p>
+                <div class="readme"> Readme</div>
+            </div>
+        </div>
+        <div class="rightside">
+            <div class="shodow">
+                <img src="slader.PNG" alt="">
+            </div>
+        </div>
+    </div>
+
+    <div class="containers reverse-flex">
+        <div class="leftside">
+            <div class="align-c">
+                <div class="project"> Project 2</div>
+                <h2>Mobile Card App</h2>
+                <p class="line-height">The technological revolution is changing aspect of our lives, and the fabric of society itself. it's also changing the way we learn and what we learn. Factual knowledge is less prized when everything you ever need to know can be found on your phone. There's no imperative to be an expert at doing everything when you can.</p>
+                <div class="readme"> Readme</div>
+            </div>
+        </div>
+        <div class="rightside">
+            <div class="shodow reverse-box">
+                <img src="slader.PNG" id="reverse-img" alt="">
+            </div>
+        </div>
+    </div>
+
+    <div class="containers">
+        <div class="leftside mc">
+            <div class="align-c">
+                <div class="project"> Project 3</div>
+                <h2>Resturant Landing Page</h2>
+                <p class="line-height">The technological revolution is changing aspect of our lives, and the fabric of society itself. it's also changing the way we learn and what we learn. Factual knowledge is less prized when everything you ever need to know can be found on your phone. There's no imperative to be an expert at doing everything when you can.</p>
+                <div class="readme"> Readme</div>
+            </div>
+        </div>
+        <div class="rightside">
+            <div class="shodow">
+                <img src="slader.PNG" alt="">
+            </div>
+        </div>
+    </div>
+
+    <div class="containers reverse-flex">
+        <div class="leftside">
+            <div class="align-c">
+                <div class="project"> Project 4</div>
+                <h2>
+                    Essential UI Icon Pack</h2>
+                <p class="line-height">The technological revolution is changing aspect of our lives, and the fabric of society itself. it's also changing the way we learn and what we learn. Factual knowledge is less prized when everything you ever need to know can be found on your phone. There's no imperative to be an expert at doing everything when you can.</p>
+                <div class="readme"> Readme</div>
+            </div>
+        </div>
+        <div class="rightside">
+            <div class="shodow reverse-box">
+                <img src="slader.PNG" id="reverse-img" alt="">
+            </div>
+        </div>
+    </div>
+    <div class="containers">
+        <div class="leftside mc">
+            <div class="align-c">
+                <div class="project"> Project 5</div>
+                <h2>
+                    Financial App Design</h2>
+                <p class="line-height">The technological revolution is changing aspect of our lives, and the fabric of society itself. it's also changing the way we learn and what we learn. Factual knowledge is less prized when everything you ever need to know can be found on your phone. There's no imperative to be an expert at doing everything when you can.</p>
+                <div class="readme"> Readme</div>
+            </div>
+        </div>
+        <div class="rightside">
+            <div class="shodow">
+                <img src="slader.PNG" alt="">
+            </div>
+        </div>
+    </div>
+
+    <div class="containers reverse-flex">
+        <div class="leftside">
+            <div class="align-c">
+                <div class="project"> Project 6</div>
+                <h2>Design Brand Guidelines</h2>
+                <p class="line-height">The technological revolution is changing aspect of our lives, and the fabric of society itself. it's also changing the way we learn and what we learn. Factual knowledge is less prized when everything you ever need to know can be found on your phone. There's no imperative to be an expert at doing everything when you can.</p>
+                <div class="readme"> Readme</div>
+            </div>
+        </div>
+        <div class="rightside">
+            <div class="shodow reverse-box">
+                <img src="slader.PNG" id="reverse-img" alt="">
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer">
+
+            <div class="logo">
+                <a href="index.html"> <img src="logo.png" alt=""></a>
+            </div>
+            <div class="footcontact">© 2023 Freelancer - Phlox Elementor WordPress Theme. All rights reserved.
+            </div>
+            <div class="iconss">
+                <div class="allicons">
+                    <div class="facebook">
+                        <img src="17.jpg" alt="">
+                    </div>
+                    <div class="in">
+                        <img src="17.jpg" alt="">
+                    </div>
+                    <div class="incitgram">
+                        <img src="17.jpg" alt="">
+                    </div>
+                    <div class="message">
+                        <img src="17.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

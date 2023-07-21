@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@200&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Noto Serif', serif;
+}
+
+.footer {
+    background: #2d2e32;
+    color: whitesmoke;
+    display: flex;
+    align-items: center;
+    height: 9em;
+    flex-wrap: wrap;
+}
+
+/* .logo {
+    width: 20em;
+    display: flex;
+} */
+
+.logo img {
+    margin: 0 12px;
+}
+
+
+.footcontact {
+    width: 45em;
+    /* margin-left: -4px; */
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.allicons {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.iconss {
+    width: 21em;
+    display: flex;
+    justify-content: space-around;
+}
+
+.iconss img {
+    width: 34px;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+img:hover {
+    border: 1px solid red;
+
+}
+
+/* media query */
+
+@media screen and (max-width:930px) {
+    .footer {
+        height: 12em;
+    }
+
+    .logo {
+        margin: 8px auto;
+    }
+
+    .footcontact {
+        margin: 7px 7px;
+    }
+
+    .iconss {
+        margin: 10px auto;
+    }
+}
